@@ -1,0 +1,23 @@
+* {
+    scroll-behavior: smooth;
+    scrollbar-color: var(--jory-scrollbar) var(--jory-bg);
+}
+
+::-webkit-scrollbar {
+    width: 0.75rem;
+}
+::-webkit-scrollbar:horizontal {
+    height: 0.75rem;
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+    background: var(--jory-bg);
+    border-radius: 0.25rem;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--jory-scrollbar);
+    border-radius: 0.25rem;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--jory-scrollbar-hover);
+}

@@ -1,0 +1,21 @@
+// reset
+@import "./reset.scss";
+
+//theme
+@import "./theme/light.scss";
+@import "./theme/dark.scss";
+
+// transition
+@import "./transition.scss";
+
+// scrollbar
+@import "./scrollbar.scss";
+// viewTransition
+@import "./viewTransition.scss";
+// noprogress
+@import "./nprogress.scss";
+
+html {
+  background: var(--jory-bg);
+  overflow-y: scroll;
+}
